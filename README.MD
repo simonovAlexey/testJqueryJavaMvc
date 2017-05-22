@@ -33,3 +33,10 @@ Language: varchar
 
 ----
 <a href="http://www.scand.by/ru/company/tasks/test_jquery_javamvc.doc" target="_blank">Полная версия задания</a>
+
+---
+
+####Конфигурация БД: resources\db\postgres.properties
+
+- Инициализация БД: resources\db\initDB.sql
+- Тестовые данные находятся в resources\db\populateDB.sql

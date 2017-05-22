@@ -20,7 +20,6 @@ public class User {
     private String login;
 
     @Column(name = "PASSWORD", nullable = false)
-    @NotBlank
     @SafeHtml
     private String Password;
 

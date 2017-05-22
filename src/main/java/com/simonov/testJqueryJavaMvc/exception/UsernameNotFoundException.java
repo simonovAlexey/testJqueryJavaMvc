@@ -1,4 +1,4 @@
-package com.simonov.testJqueryJavaMvc.util.exception;
+package com.simonov.testJqueryJavaMvc.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -2,7 +2,7 @@ package com.simonov.testJqueryJavaMvc.service;
 
 import com.simonov.testJqueryJavaMvc.model.User;
 import com.simonov.testJqueryJavaMvc.repository.UserRepository;
-import com.simonov.testJqueryJavaMvc.util.exception.UsernameNotFoundException;
+import com.simonov.testJqueryJavaMvc.exception.UsernameNotFoundException;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
