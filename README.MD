@@ -22,12 +22,12 @@ Test Jquery JavaMVC
 
 Для хранения данных должна быть создана единственная таблица базы данных:
 
-Users
-login: varchar, primary key
-password: varchar
-FirstName: varchar
-LastName: varchar
-Language: varchar
+> Users <br>
+> login: varchar, primary key<br>
+> password: varchar<br>
+> FirstName: varchar<br>
+> LastName: varchar<br>
+> Language: varchar<br>
 
 Где password хранит закриптованное SHA1 алгоритмом  значение пароля, Language - значение языка пользователя по умолчанию (значение вида RU, DE, EN,...)
 
@@ -36,7 +36,7 @@ Language: varchar
 
 ---
 
-####Конфигурация БД: resources\db\postgres.properties
+#### Конфигурация БД: resources\db\postgres.properties
 
 - Инициализация БД: resources\db\initDB.sql
 - Тестовые данные находятся в resources\db\populateDB.sql
