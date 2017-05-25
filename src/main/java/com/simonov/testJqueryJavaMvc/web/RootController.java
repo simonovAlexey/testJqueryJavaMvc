@@ -79,20 +79,4 @@ class RootController {
                 response.addCookie(cookie);
         }
     }
-
-
-    /*@PostMapping("/register")
-    public String saveRegister(@Valid UserTo userTo, BindingResult result, SessionStatus status, ModelMap model) {
-        if (!result.hasErrors()) {
-            try {
-                super.create(UserUtil.createNewFromTo(userTo));
-                status.setComplete();
-                return "redirect:login?message=app.registered&username=" + userTo.getEmail();
-            } catch (DataIntegrityViolationException ex) {
-                result.rejectValue("email", "exception.users.duplicate_email");
-            }
-        }
-        model.addAttribute("register", true);
-        return "profile";
-    }*/
 }
