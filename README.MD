@@ -32,9 +32,7 @@ Test Jquery JavaMVC
 Где password хранит закриптованное SHA1 алгоритмом  значение пароля, Language - значение языка пользователя по умолчанию (значение вида RU, DE, EN,...)
 
 ----
-<a href="http://www.scand.by/ru/company/tasks/test_jquery_javamvc.doc" target="_blank">Полная версия задания</a>
 
----
 
 #### Конфигурация БД: resources\db\postgres.properties
 
